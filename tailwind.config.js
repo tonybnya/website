@@ -13,6 +13,12 @@ export default {
         sourcesans3: ["source-sans-3", "sans-serif"],
         sourcesans3bold: ["source-sans-3-bold", "sans-serif"],
         righteous: ["righteous", "sans-serif"],
+      },
+      colors: {
+        "dark-goldenrod": "#b88923",
+        "penn-blue": "#001f54",
+        "indigo-blue": "#034078",
+        "cerulean": "#1282a2",
       }
     },
   },
