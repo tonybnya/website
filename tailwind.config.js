@@ -17,7 +17,7 @@ export default {
       colors: {
         "dark-goldenrod": "#b88923",
         "penn-blue": "#001f54",
-        "indigo-blue": "#034078",
+        "indigo-dye": "#034078",
         "cerulean": "#1282a2",
       }
     },
