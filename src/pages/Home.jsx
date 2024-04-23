@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import HeroHome from "../components/HeroHome";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <HeroHome />
+    </>
+  );
+};
 
 export default Home;
+
