@@ -55,7 +55,7 @@ const HeroHome = () => {
             </Link>
             <Link
               to="/contact"
-              className="hover:bg-cerulean inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-white"
+              className="hover:bg-indigo-dye inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-white"
             >
               Nous Contacter
             </Link>
