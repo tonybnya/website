@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
 
 const HomeCarousel = ({
-  autoSlide = false,
+  autoSlide = true,
   autoSlideInterval = 3000,
   slides,
 }) => {
