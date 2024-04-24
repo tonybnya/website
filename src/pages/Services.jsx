@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import CommonHeroSection from "../components/CommonHeroSection";
+import bgServices from "/assets/img/services-home.jpg";
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <>
+      <CommonHeroSection title="Nos Services" imgUrl={bgServices} />
+    </>
+  );
+};
 
-export default Services
+export default Services;
+
