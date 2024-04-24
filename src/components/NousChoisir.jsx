@@ -1,5 +1,5 @@
 import React from "react";
-import woman from "/assets/img/female.png";
+import woman from "/assets/img/woman.png";
 import choix from "../data/choix";
 import NousChoisirItem from "./NousChoisirItem";
 
