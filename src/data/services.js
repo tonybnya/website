@@ -1,15 +1,21 @@
 const services = [
   {
-    icon: "/assets/icon/1.svg",
-    service: "Logistique",
+    icon: "/assets/icon/5.svg",
+    service: "Maintenance d'engins",
     description:
-      "Notre expertise en logistique assure une gestion fluide et efficace de vos opérations, optimisant le flux de vos biens et réduisant les coûts. De la gestion des stocks à la distribution, nous assurons une coordination sans faille pour répondre à vos besoins.",
+      "Maximisez la durabilité de vos équipements avec notre service de maintenance spécialisé. Nos techniciens qualifiés assurent un entretien préventif et réactif, prolongeant la durée de vie de vos investissements.",
   },
   {
     icon: "/assets/icon/2.svg",
     service: "Location d'engins",
     description:
       "Besoin d'équipements fiables pour vos projets ? Notre service de location d'engins propose une gamme variée d'équipements de qualité, adaptés à vos exigences. De la construction au transport, nous avons ce qu'il vous faut.",
+  },
+  {
+    icon: "/assets/icon/1.svg",
+    service: "Logistique",
+    description:
+      "Notre expertise en logistique assure une gestion fluide et efficace de vos opérations, optimisant le flux de vos biens et réduisant les coûts. De la gestion des stocks à la distribution, nous assurons une coordination sans faille pour répondre à vos besoins.",
   },
   {
     icon: "/assets/icon/3.svg",
@@ -22,12 +28,6 @@ const services = [
     service: "Import-Export",
     description:
       "Facilitant les échanges internationaux, nous simplifions le processus d'importation et d'exportation pour votre entreprise. Grâce à notre expertise réglementaire et à nos partenariats mondiaux, vos transactions sont fluides et rentables.",
-  },
-  {
-    icon: "/assets/icon/5.svg",
-    service: "Maintenance d'engins",
-    description:
-      "Maximisez la durabilité de vos équipements avec notre service de maintenance spécialisé. Nos techniciens qualifiés assurent un entretien préventif et réactif, prolongeant la durée de vie de vos investissements.",
   },
   // {
   //   icon: "/assets/icon/6.svg",
