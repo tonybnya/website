@@ -17,9 +17,6 @@ const Navbar = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={logo} className="h-20" alt="TAF Logo" />
-          {/* <span className="self-center text-2xl font-righteous whitespace-nowrap text-dark-goldenrod"> */}
-          {/*   TAF */}
-          {/* </span> */}
         </Link>
         <button
           onClick={toggleMenu}
