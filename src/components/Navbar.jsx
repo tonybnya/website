@@ -72,7 +72,7 @@ const Navbar = () => {
                 to="/about"
                 className="block py-2 px-3 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
               >
-                A propos
+                À propos
               </Link>
             </li>
             <li>

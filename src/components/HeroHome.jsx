@@ -23,7 +23,7 @@ const HeroHome = () => {
             <h3 className="font-montserrat mb-6 text-penn-blue max-sm:text-sm max-sm:text-center max-[1439px]:text-center">
               Logistics Simplified. Equipment Empowered.
             </h3>
-            <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-white font-opensans text-justify">
+            <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-white text-shadow-md font-opensans text-justify">
               De la gestion des stocks à la livraison internationale, les
               entreprises et partenaires sollicitant des services du secteur de
               l&apos;quipement et de la logistique comptent sur{" "}

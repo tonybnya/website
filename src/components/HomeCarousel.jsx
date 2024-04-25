@@ -20,7 +20,7 @@ const HomeCarousel = ({
   }, []);
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="shadow-2xl overflow-hidden relative">
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}

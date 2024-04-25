@@ -7,7 +7,7 @@ const CommonHeroSection = ({ title, imgUrl }) => {
       style={{ backgroundImage: `url(${imgUrl})`, backgroundSize: "cover" }}
     >
       <div className="absolute inset-0 bg-penn-blue bg-opacity-60"></div>
-      <h1 className="text-white font-righteous text-4xl font-bold z-10">
+      <h1 className="text-white font-righteous text-4xl font-bold z-10 drop-shadow-2xl">
         {title}
       </h1>
     </div>
