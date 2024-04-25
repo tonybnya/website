@@ -9,9 +9,9 @@ const ContactForm = () => {
 
       <div className="flex justify-center items-center">
         <form
-          action="https://getform.io/f/lbkmekyb"
+          action="https://getform.io/f/zaxdrjra"
           method="POST"
-          className="flex flex-col w-full md:w-7/12 text-black font-opensans"
+          className="flex flex-col w-full md:w-7/12 text-black font-opensans max-sm:mx-8"
         >
           <input
             type="text"
@@ -24,20 +24,6 @@ const ContactForm = () => {
             type="email"
             name="email"
             placeholder="Email"
-            className="my-2 p-2 bg-transparent border-2 border-dark-goldenrod rounded-md focus:outline-none"
-          />
-
-          <input
-            type="text"
-            name="name"
-            placeholder="Téléphone"
-            className="my-2 p-2 bg-transparent border-2 border-dark-goldenrod rounded-md focus:outline-none"
-          />
-
-          <input
-            type="text"
-            name="name"
-            placeholder="Ville"
             className="my-2 p-2 bg-transparent border-2 border-dark-goldenrod rounded-md focus:outline-none"
           />
 
