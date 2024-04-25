@@ -13,7 +13,7 @@ const NousChoisir = () => {
         <img
           src={woman}
           alt="delivery woman"
-          className="w-1/2 border-4 border-dark-goldenrod max-sm:w-full max-sm:mb-6 drop-shadow-2xl"
+          className="w-1/2 border-4 rounded-md border-dark-goldenrod max-sm:w-full max-sm:mb-6 drop-shadow-2xl"
         />
         <div className="flex flex-col">
           {choix.map((item, index) => (
