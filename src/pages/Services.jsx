@@ -4,8 +4,10 @@ import "react-multi-carousel/lib/styles.css";
 import CommonHeroSection from "../components/CommonHeroSection";
 import bgServices from "/assets/img/services-home.jpg";
 import services from "../data/services";
+import process from "../data/process";
 import ServiceClient from "../components/ServiceClient";
 import ServiceCard from "../components/ServiceCard";
+import ProcessCard from "../components/ProcessCard";
 
 const Services = () => {
   const [isPaused, setIsPaused] = useState(false);
@@ -63,6 +65,22 @@ const Services = () => {
             </div>
           ))}
         </Carousel>
+      </div>
+
+      <div className="px-6 mb-12">
+        <h1 className="text-center mb-6 font-righteous text-penn-blue text-3xl max-sm:text-2xl">
+          Procédure pour bénéficier de nos services
+        </h1>
+        <div className="flex flex-row gap-4 items-center max-sm:flex-col max-sm:px-6 md:grid md:grid-cols-2 md:place-items-center xl:grid xl:grid-cols-3">
+          {process.map((item, index) => (
+            <ProcessCard
+              key={index}
+              stepNumber={item.stepNumber}
+              title={item.title}
+              description={item.description}
+            />
+          ))}
+        </div>
       </div>
     </>
   );
