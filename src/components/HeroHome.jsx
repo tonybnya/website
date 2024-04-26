@@ -26,7 +26,7 @@ const HeroHome = () => {
             <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-white text-shadow-md font-opensans text-justify">
               De la gestion des stocks à la livraison internationale, les
               entreprises et partenaires sollicitant des services du secteur de
-              l&apos;quipement et de la logistique comptent sur{" "}
+              l&apos;équipement et de la logistique comptent sur{" "}
               <span className="text-penn-blue font-bold">
                 TAF Equipment & Logistics
               </span>{" "}
