@@ -15,7 +15,7 @@ const services = [
     icon: "/assets/icon/1.svg",
     service: "Logistique",
     description:
-      "Notre expertise en logistique assure une gestion fluide et efficace de vos opérations, optimisant le flux de vos biens et réduisant les coûts. De la gestion des stocks à la distribution, nous assurons une coordination sans faille pour répondre à vos besoins.",
+      "Notre expertise assure une gestion fluide et efficace de vos opérations, optimisant le flux de vos biens et réduisant les coûts. De la gestion des stocks à la distribution, nous assurons une coordination sans faille pour répondre à vos besoins.",
   },
   {
     icon: "/assets/icon/3.svg",
@@ -27,7 +27,7 @@ const services = [
     icon: "/assets/icon/4.svg",
     service: "Import-Export",
     description:
-      "Facilitant les échanges internationaux, nous simplifions le processus d'importation et d'exportation pour votre entreprise. Grâce à notre expertise réglementaire et à nos partenariats mondiaux, vos transactions sont fluides et rentables.",
+      "Facilitant les échanges internationaux, nous simplifions le processus d'importation et d'exportation pour votre entreprise. Grâce à notre expertise et nos partenariats mondiaux, vos transactions sont fluides et rentables.",
   },
   // {
   //   icon: "/assets/icon/6.svg",
@@ -39,7 +39,7 @@ const services = [
     icon: "/assets/icon/7.svg",
     service: "Prestation de Services",
     description:
-      "Notre engagement envers l'excellence se reflète dans notre gamme de services complets. Que ce soit la consultation, la formation ou la gestion de projet, nous sommes là pour vous aider à atteindre vos objectifs avec succès.",
+      "Notre engagement envers l'excellence se reflète dans notre gamme de services complets. Que ce soit la consultation, la formation ou la gestion de projet, nous sommes là pour toujours vous servir au mieux.",
   },
 ];
 

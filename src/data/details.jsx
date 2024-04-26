@@ -1,8 +1,5 @@
-// import Icon from "./Icon";
-
 const details = [
   {
-    // icon: <Icon iconName={"vision"} />,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +21,6 @@ const details = [
       "Chez TAF Equipment & Logistics, notre vision est simple mais puissante : devenir le partenaire privilégié de nos clients pour toutes leurs exigences en matière de logistique et d'équipement. Nous aspirons à être reconnus parmi les leaders du domaine, en offrant des solutions innovantes et fiables qui dépassent les attentes de nos clients.",
   },
   {
-    // icon: <Icon iconName={"mission"} />,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +42,6 @@ const details = [
       "La mission de TAF Equipment & Logistics est de simplifier les opérations commerciales de nos clients en leur fournissant des solutions logistiques intégrées et des équipements de qualité supérieure. Nous nous engageons à offrir un service personnalisé, une expertise inégalée et une valeur ajoutée à chaque interaction, contribuant ainsi au succès et à la croissance durable de nos partenaires commerciaux.",
   },
   {
-    // icon: <Icon iconName={"goals"} />,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
