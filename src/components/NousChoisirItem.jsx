@@ -12,7 +12,7 @@ const NousChoisirItem = ({ icon, title, description }) => {
         <h3 className="font-montserratbold text-dark-goldenrod text-2xl max-sm:text-lg max-[1439px]:text-center max-[1439px]:text-2xl">
           {title}
         </h3>
-        <p className="text-justify text-lg w-[80%] max-sm:mx-auto max-sm:w-[90%] max-[1439px]:mx-auto max-[1439px]:text-xl">
+        <p className="font-opensans text-justify text-lg w-[80%] max-sm:mx-auto max-sm:w-[90%] max-[1439px]:mx-auto max-[1439px]:text-xl">
           {description}
         </p>
       </div>

@@ -6,7 +6,7 @@ const ServiceCard = ({ title, description }) => {
       <h3 className="text-2xl font-righteous text-dark-goldenrod mb-2">
         {title}
       </h3>
-      <p className="text-gray-600 font-opensans text-justify">{description}</p>
+      <p className="text-gray-900 font-opensans text-justify">{description}</p>
     </div>
   );
 };

@@ -6,7 +6,9 @@ const ProcessCard = ({ stepNumber, title, description }) => {
       <div className="flex items-center justify-center mx-auto bg-dark-goldenrod w-12 h-12 rounded-full mb-4">
         <span className="text-xl font-bold text-gray-800">{stepNumber}</span>
       </div>
-      <h3 className="text-xl font-righteous text-penn-blue mb-2">{title}</h3>
+      <h3 className="text-xl text-center font-righteous text-penn-blue mb-2">
+        {title}
+      </h3>
       <p className="text-gray-800 font-opensans text-justify max-sm:text-md">
         {description}
       </p>
