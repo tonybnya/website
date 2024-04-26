@@ -36,7 +36,7 @@ const ContactForm = () => {
 
           <button
             type="submit"
-            className="bg-penn-blue hover:bg-indigo-dye inline-flex items-center justify-center px-5 py-3 w-1/4 mx-auto text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+            className="font-opensansbold bg-penn-blue hover:bg-indigo-dye inline-flex items-center justify-center px-5 py-3 w-1/4 mx-auto text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
           >
             Envoyer
           </button>
