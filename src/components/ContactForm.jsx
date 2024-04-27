@@ -28,6 +28,7 @@ const ContactForm = () => {
           />
 
           <textarea
+            type="text"
             name="message"
             placeholder="Votre message..."
             rows="10"
