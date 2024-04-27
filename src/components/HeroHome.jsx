@@ -32,8 +32,9 @@ const HeroHome = () => {
               </span>{" "}
               pour simplifier leur chaîne d&apos;approvisionnement. Que vous
               souhaitiez acquérir des engins lourds ou des marchandises
-              délicates, nous offrons une solution complète. La logistique
-              simplifiée et l&apos;équipement au service de la performance.
+              délicates, nous offrons une solution complète. Chez nous la
+              logistique est simplifiée et l&apos;équipement est au service de
+              la performance.
             </p>
             <div className="max-sm:text-center max-[1439px]:text-center">
               <Link

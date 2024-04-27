@@ -15,11 +15,11 @@ const Presentation = () => {
             <span className="font-opensansbold text-dark-goldenrod">
               Bienvenue chez TAF Equipment & Logistics
             </span>
-            , votre partenaire dévoué pour toutes vos nécessités logistiques, de
-            transport, et bien plus encore. Nous sommes bien plus qu&apos;une
-            entreprise - nous sommes une solution complète pour vos opérations,
-            offrant une gamme variée de services spécialisés pour répondre à vos
-            besoins les plus exigeants.
+            , votre partenaire dévoué pour toutes vos nécessités de maintenance
+            d&apos;engins, de logistique, de transport, et bien plus encore.
+            Nous sommes bien plus qu&apos;une entreprise - nous sommes une
+            solution complète pour vos opérations, offrant une gamme variée de
+            services spécialisés pour répondre à vos besoins les plus exigeants.
           </p>
           <h2 className="max-sm:text-xl text-2xl font-bold text-dark-goldenrod mb-4">
             Nos Services:

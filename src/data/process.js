@@ -9,7 +9,7 @@ const process = [
     stepNumber: 2,
     title: "Consultation Personnalisée",
     description:
-      "Nous organiserons une consultation personnalisée pour discuter en détail de vos besoins en logistique, location d'engins, transport, import-export, maintenance d'engins, commerce général ou prestations de services. Cette étape nous permettra de comprendre vos besoins et de vous fournir les solutions les mieux adaptées.",
+      "Nous organiserons une consultation personnalisée pour discuter en détail de vos besoins en maintenance d'engins, location d'engins, logistique & transport, import-export et bien plus encore. Cette étape nous permettra de comprendre vos besoins et de vous fournir les solutions les mieux adaptées.",
   },
   {
     stepNumber: 3,
