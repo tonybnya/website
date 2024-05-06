@@ -103,7 +103,7 @@ const Presentation = () => {
           </ul>
 
           <h2 className="max-sm:text-xl text-2xl font-bold text-dark-goldenrod mb-4">
-            Notre Engagement envers l&apos;Excellence :
+            Notre Engagement pour l&apos;Excellence :
           </h2>
 
           <p className="text-black mb-6">
