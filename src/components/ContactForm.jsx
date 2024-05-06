@@ -41,9 +41,14 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col mb-10 mx-auto">
-      <h1 className="text-penn-blue text-center text-4xl mb-12 font-righteous underline">
+      <h1 className="text-penn-blue text-center text-4xl font-righteous underline">
         Nous écrire
       </h1>
+
+      <p className="my-10 text-center font-opensans xl:text-xl md:text-md max-sm:text-sm">
+        Un besoin particulier ? <br />
+        Écrivez-nous afin d’avoir un service sur-mesure.
+      </p>
 
       <div className="flex justify-center items-center">
         <form
