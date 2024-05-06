@@ -27,6 +27,14 @@ const Presentation = () => {
           <ul className="list-disc pl-6 mb-6">
             <li className="mb-2">
               <span className="text-penn-blue font-opensansbold">
+                Vente d&apos;engins :
+              </span>{" "}
+              Notre service de vente d&apos;engins propose une gamme diversifiée
+              d&apos;équipements spécialisés pour répondre à vos besoins
+              industriels.
+            </li>
+            <li className="mb-2">
+              <span className="text-penn-blue font-opensansbold">
                 Maintenance d&apos;engins :
               </span>{" "}
               Notre équipe dédiée de techniciens qualifiés est là pour
@@ -43,28 +51,12 @@ const Presentation = () => {
               pour répondre à vos exigences.
             </li>
             <li className="mb-2">
-              <span className="text-penn-blue font-opensansbold">
-                Logistique :
-              </span>{" "}
-              Des solutions personnalisées pour optimiser vos chaînes
-              d&apos;approvisionnement et garantir une efficacité maximale à
-              chaque étape.
-            </li>
-            <li className="mb-2">
-              <span className="text-penn-blue font-opensansbold">
-                Transport :
-              </span>{" "}
-              Avec notre flotte moderne et notre équipe expérimentée, nous
-              assurons le transport sécurisé et ponctuel de vos marchandises, où
-              que vous soyez.
-            </li>
-            <li className="mb-2">
-              <span className="text-penn-blue font-opensansbold">
-                Import-Export :
-              </span>{" "}
-              Simplifiez vos opérations internationales avec notre expertise en
-              Import-Export, garantissant des transactions fluides et sans
-              tracasseries.
+              <span className="text-penn-blue font-opensansbold">Conseil</span>{" "}
+              Notre service de conseil vous offre l&apos;expertise nécessaire
+              pour optimiser vos opérations commerciales et logistiques. Nos
+              consultants expérimentés travailleront en étroite collaboration
+              avec vous pour comprendre vos défis et vos objectifs, puis
+              élaborer des stratégies sur mesure pour y répondre.
             </li>
             <li className="mb-2">
               <span className="text-penn-blue font-opensansbold">
@@ -83,6 +75,30 @@ const Presentation = () => {
               complète de prestations pour répondre à tous vos besoins
               opérationnels, de la gestion des stocks à la consultation en
               logistique.
+            </li>
+            <li className="mb-2">
+              <span className="text-penn-blue font-opensansbold">
+                Import-Export :
+              </span>{" "}
+              Simplifiez vos opérations internationales avec notre expertise en
+              Import-Export, garantissant des transactions fluides et sans
+              tracasseries.
+            </li>
+            <li className="mb-2">
+              <span className="text-penn-blue font-opensansbold">
+                Logistique :
+              </span>{" "}
+              Des solutions personnalisées pour optimiser vos chaînes
+              d&apos;approvisionnement et garantir une efficacité maximale à
+              chaque étape.
+            </li>
+            <li className="mb-2">
+              <span className="text-penn-blue font-opensansbold">
+                Transport :
+              </span>{" "}
+              Avec notre flotte moderne et notre équipe expérimentée, nous
+              assurons le transport sécurisé et ponctuel de vos marchandises, où
+              que vous soyez.
             </li>
           </ul>
 

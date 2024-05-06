@@ -10,7 +10,7 @@ const About = () => {
     <>
       <CommonHeroSection title="À Propos de Nous" imgUrl={bgAbout} />
       <ServiceClient />
-      <div className="flex xl:flex-row max-sm:flex-col md:flex-col">
+      <div className="flex xl:flex-row max-sm:flex-col md:flex-col px-12">
         <Presentation />
         <Vision />
       </div>
