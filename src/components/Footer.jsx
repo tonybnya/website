@@ -39,22 +39,27 @@ const Footer = () => {
           <ul className="flex flex-col justify-start mt-3 text-sm font-medium text-gray-400 sm:mt-0 max-sm:block max-sm:flex max-sm:justify-center">
             <li className="my-2">
               <Link to="/" className="hover:underline uppercase">
-                Accueil
+                accueil
               </Link>
             </li>
             <li className="mb-2">
               <Link to="/about" className="hover:underline uppercase">
-                A Propos
+                À propos
               </Link>
             </li>
             <li className="mb-2">
               <Link to="/services" className="hover:underline uppercase">
-                Services
+                services
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link to="/fleet" className="hover:underline uppercase">
+                flotte
               </Link>
             </li>
             <li className="mb-2">
               <Link to="/contact" className="hover:underline uppercase">
-                Contact
+                contact
               </Link>
             </li>
           </ul>
