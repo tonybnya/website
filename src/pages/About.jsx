@@ -1,6 +1,6 @@
 import React from "react";
 import CommonHeroSection from "../components/CommonHeroSection";
-import bgAbout from "/assets/img/about-home.png";
+import bgAbout from "/assets/img/about-hero.png";
 import ServiceClient from "../components/ServiceClient";
 import Presentation from "../components/Presentation";
 import Vision from "../components/Vision";

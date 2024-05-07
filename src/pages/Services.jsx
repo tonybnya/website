@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CommonHeroSection from "../components/CommonHeroSection";
-import bgServices from "/assets/img/services-home.jpg";
+import bgServices from "/assets/img/services-hero.jpg";
 import services from "../data/services";
 import process from "../data/process";
 import ServiceClient from "../components/ServiceClient";
