@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-l from-dark-goldenrod to-penn-blue border-gray-200">
+    <nav className="bg-gradient-to-l from-penn-blue via-dark-goldenrod to-penn-blue border-b">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6">
         <Link
           to="/"

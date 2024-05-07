@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="flex justify-center gap-40 xl:p-12 md:p-12 max-sm:p-8 max-sm:flex-col bg-penn-blue border-b border-slate-900 text-gray-400">
+    <footer className="">
+      <div className="bg-gradient-to-tr from-dark-goldenrod via-penn-blue to-dark-goldenrod flex justify-center gap-40 xl:p-12 md:p-12 max-sm:p-8 max-sm:flex-col bg-penn-blue border-b border-slate-900 text-gray-400">
         <div className="font-opensans">
           <div>
             <h2 className="text-gray-200">TAF Equipment & Logistics</h2>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="shadow bottom-0 mb-0 bg-penn-blue font-opensans p-4">
+      <div className="border-t bottom-0 mb-0 bg-penn-blue font-opensans p-4">
         <p className="text-center text-gray-400">
           Copyright © 2024{" "}
           <Link to="/" className="hover:underline text-dark-goldenrod">
