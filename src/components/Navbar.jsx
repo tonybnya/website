@@ -61,16 +61,16 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="block py-2 px-3 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
+                className="block py-2 px-1 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
                 aria-current="page"
               >
-                Accueil
+                accueil
               </Link>
             </li>
             <li>
               <Link
                 to="/about"
-                className="block py-2 px-3 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
+                className="block py-2 px-1 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
               >
                 À propos
               </Link>
@@ -78,17 +78,25 @@ const Navbar = () => {
             <li>
               <Link
                 to="/services"
-                className="block py-2 px-3 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
+                className="block py-2 px-1 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
               >
-                Services
+                services
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/fleet"
+                className="block py-2 px-1 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
+              >
+                flotte
               </Link>
             </li>
             <li>
               <Link
                 to="/contact"
-                className="block py-2 px-3 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
+                className="block py-2 px-1 rounded text-white hover:underline max-sm:hover:bg-indigo-dye max-sm:hover:no-underline"
               >
-                Contact
+                contacts
               </Link>
             </li>
           </ul>
