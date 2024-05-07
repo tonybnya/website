@@ -4,7 +4,7 @@ import phone from "/assets/img/phone.png";
 
 const ServiceClient = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-penn-blue h-32 text-2xl text-white max-sm:text-sm">
+    <div className="flex flex-col items-center justify-center bg-gradient-to-r from-penn-blue to-dark-goldenrod h-32 text-2xl text-white max-sm:text-sm">
       <h1 className="font-montserrat p-auto mb-2">
         Notre Service Client est disponible{" "}
         <span className="font-montserratbold">24/7</span>

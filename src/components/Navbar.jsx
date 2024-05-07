@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-penn-blue border-gray-200">
+    <nav className="bg-gradient-to-l from-dark-goldenrod to-penn-blue border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6">
         <Link
           to="/"
@@ -22,7 +22,7 @@ const Navbar = () => {
           onClick={toggleMenu}
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-dark-goldenrod rounded-lg md:hidden hover:bg-penn-blue focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-dark-goldenrod focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-controls="navbar-default"
           aria-expanded={menuOpen}
         >
