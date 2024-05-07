@@ -5,7 +5,7 @@ const FleetPresentation = () => {
   return (
     <div className="bg-black text-white text-center mx-auto py-12">
       <h1 className="text-cerulean font-righteous xl:text-2xl md:text-xl mb-4">
-        Parcourez Notre Impressionante Flotte !
+        Parcourez Notre Impressionnante Flotte !
       </h1>
 
       <p className="font-opensans max-sm:text-sm px-8">

@@ -7,7 +7,7 @@ const choix = [
   },
   {
     icon: "/assets/icon/payments.svg",
-    title: "Coûts concurrentiels",
+    title: "Tarifs concurrentiels",
     description:
       "Offrant une valeur exceptionnelle, nos tarifs compétitifs vous permettent d'obtenir un excellent service sans compromettre votre budget. Nous nous efforçons de maximiser l'efficacité et de minimiser les coûts pour répondre à vos besoins commerciaux.",
   },
