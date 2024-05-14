@@ -1,5 +1,5 @@
 import React from "react";
-import whatsappIcon from "/assets/img/WhatsAppButtonGreenSmall.png";
+import whatsappIcon from "/assets/logo/WhatsAppButtonGreenSmall.png";
 
 const ServiceClient = () => {
   const openWhatsAppChat = () => {
