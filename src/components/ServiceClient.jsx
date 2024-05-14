@@ -11,7 +11,7 @@ const ServiceClient = () => {
   return (
     <div className="flex flex-col items-center justify-center border-t bg-gradient-to-r from-dark-goldenrod via-penn-blue to-dark-goldenrod h-32 text-xl text-white max-sm:text-sm">
       <h1 className="font-montserrat p-auto mb-2">
-        Notre Service Client est disponible{" "}
+        Service Client{" "}
         <span className="font-montserratbold text-red-500">24/7</span> : +237
         698 68 45 98
       </h1>
