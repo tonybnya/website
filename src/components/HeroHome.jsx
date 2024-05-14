@@ -3,20 +3,21 @@ import { Link } from "react-router-dom";
 
 import img1 from "/assets/img/carousel-1.jpg";
 import img2 from "/assets/img/carousel-2.jpg";
-import img3 from "/assets/img/carousel-3.jpg";
-import img4 from "/assets/img/carousel-4.png";
-import img5 from "/assets/img/carousel-5.png";
+import img3 from "/assets/img/carousel-3.webp";
+import img4 from "/assets/img/carousel-4.jpg";
+import img5 from "/assets/img/carousel-5.jpg";
+import img6 from "/assets/img/carousel-6.jpg";
 
 import video from "/assets/video/video-home.mp4";
 
 import HomeCarousel from "./HomeCarousel";
 
 const HeroHome = () => {
-  const slides = [img1, img2, img3, img4, img5];
+  const slides = [img1, img2, img3, img4, img5, img6];
 
   return (
     <>
-      <section className="bg-dark-goldenrod flex items-center">
+      <section className="bg-penn-blue flex items-center">
         <video
           src={video}
           autoPlay
@@ -26,17 +27,17 @@ const HeroHome = () => {
         />
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 max-sm:flex max-sm:flex-col max-sm:items-center relative z-10">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-5xl font-extrabold font-montserratbold tracking-tight leading-none text-penn-blue max-[1439px]:text-center max-sm:text-center max-sm:text-2xl">
+            <h1 className="[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] max-w-2xl mb-4 text-5xl font-extrabold font-montserratbold tracking-tight leading-none text-dark-goldenrod max-[1439px]:text-center max-sm:text-center max-sm:text-2xl">
               TAF Equipment & Logistics
             </h1>
-            <h3 className="font-montserrat mb-6 text-penn-blue max-sm:text-sm max-sm:text-center max-[1439px]:text-center">
+            <h3 className="[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] font-montserrat mb-6 text-dark-goldenrod max-sm:text-sm max-sm:text-center max-[1439px]:text-center">
               Logistics Simplified. Equipment Empowered.
             </h3>
-            <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-white text-shadow-md font-opensans text-justify">
+            <p className="[text-shadow:_0_1px_0_rgb(0_0_0_/_80%)] max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-neutral-50 text-shadow-md font-opensans text-justify">
               De la gestion des stocks à la livraison internationale, les
               entreprises et partenaires sollicitant des services du secteur de
               l&apos;équipement et de la logistique comptent sur{" "}
-              <span className="text-penn-blue font-bold">
+              <span className="text-dark-goldenrod font-bold">
                 TAF Equipment & Logistics
               </span>{" "}
               pour simplifier leur chaîne d&apos;approvisionnement. Que vous
@@ -66,7 +67,7 @@ const HeroHome = () => {
               </Link>
               <Link
                 to="/contact"
-                className="hover:bg-indigo-dye inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg focus:ring-4 focus:ring-gray-100 text-white"
+                className="hover:bg-indigo-dye inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-dark-goldenrod rounded-lg focus:ring-4 focus:ring-gray-100 text-white"
               >
                 Nous Contacter
               </Link>

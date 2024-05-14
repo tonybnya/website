@@ -1,18 +1,27 @@
 import React from "react";
-import whatsapp from "/assets/img/whatsapp.png";
-import phone from "/assets/img/phone.png";
+import whatsappIcon from "/assets/img/WhatsAppButtonGreenSmall.png";
 
 const ServiceClient = () => {
+  const openWhatsAppChat = () => {
+    const phoneNumber = "+237698684598";
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
-    <div className="flex flex-col items-center justify-center border-t bg-gradient-to-r from-dark-goldenrod via-penn-blue to-dark-goldenrod h-32 text-2xl text-white max-sm:text-sm">
+    <div className="flex flex-col items-center justify-center border-t bg-gradient-to-r from-dark-goldenrod via-penn-blue to-dark-goldenrod h-32 text-xl text-white max-sm:text-sm">
       <h1 className="font-montserrat p-auto mb-2">
         Notre Service Client est disponible{" "}
-        <span className="font-montserratbold">24/7</span>
+        <span className="font-montserratbold text-red-500">24/7</span> : +237
+        698 68 45 98
       </h1>
-      <div className="flex flex-row gap-2 items-center">
-        <img className="block w-6 h-6" src={phone} alt="phone icon" />
-        <img className="block w-6 h-6" src={whatsapp} alt="whatsapp icon" />
-        <h2 className="font-montserrat">+237 698 68 45 98</h2>
+      <div
+        className="flex flex-row items-center cursor-pointer"
+        onClick={openWhatsAppChat}
+      >
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/+237698684598">
+          <img alt="Chat on WhatsApp" className="" src={whatsappIcon} />
+        </a>
       </div>
     </div>
   );
