@@ -8,7 +8,9 @@ import Partners from "../components/Partners";
 const Home = () => {
   return (
     <>
-      <HeroHome />
+      <div className="relative">
+        <HeroHome />
+      </div>
       <ServiceClient />
       <NosServices />
       <NousChoisir />

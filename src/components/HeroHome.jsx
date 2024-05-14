@@ -7,6 +7,8 @@ import img3 from "/assets/img/carousel-3.jpg";
 import img4 from "/assets/img/carousel-4.png";
 import img5 from "/assets/img/carousel-5.png";
 
+import video from "/assets/video/video-home.mp4";
+
 import HomeCarousel from "./HomeCarousel";
 
 const HeroHome = () => {
@@ -15,7 +17,14 @@ const HeroHome = () => {
   return (
     <>
       <section className="bg-dark-goldenrod flex items-center">
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 max-sm:flex max-sm:flex-col max-sm:items-center">
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-50"
+        />
+        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 max-sm:flex max-sm:flex-col max-sm:items-center relative z-10">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-5xl font-extrabold font-montserratbold tracking-tight leading-none text-penn-blue max-[1439px]:text-center max-sm:text-center max-sm:text-2xl">
               TAF Equipment & Logistics
@@ -64,7 +73,7 @@ const HeroHome = () => {
             </div>
           </div>
 
-          <div className="relative w-full lg:col-span-5 lg:flex max-sm:mt-6 max-w-lg mx-auto lg:max-w-none lg:mx-0 mt-6 lg:mt-0">
+          <div className="relative w-full lg:col-span-5 lg:flex max-sm:mt-6 max-w-lg mx-auto lg:max-w-none lg:mx-0 mt-6 lg:mt-0 z-10">
             <div className="max-w-lg">
               <HomeCarousel slides={slides} />
             </div>
