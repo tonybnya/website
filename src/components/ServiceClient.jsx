@@ -19,7 +19,7 @@ const ServiceClient = () => {
         className="flex flex-row items-center cursor-pointer"
         onClick={openWhatsAppChat}
       >
-        <a aria-label="Chat on WhatsApp" href="https://wa.me/+237698684598">
+        <a aria-label="Chat on WhatsApp">
           <img alt="Chat on WhatsApp" className="" src={whatsappIcon} />
         </a>
       </div>
